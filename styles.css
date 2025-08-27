@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%; 
+}
+
+ul {
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li { 
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #d21617;
+}
+
+#bannercomentarios {
+    background-image: url(./banner\ comentarios.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#comentarioscontainer {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  transparent;
+}
+
+.content1 {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 70px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+
+#contatobanner {
+    background-image: url('./batman\ background.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#contatocontainer {
+    width: 30%;
+    height: 100%;
+    background-color: transparent;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    color: aliceblue;
+    background-color: transparent;
+    display: grid;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(1, 3fr);
+    gap: 10px;
+    padding:50px;
+    margin: auto;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background: transparent;
+}
+
+#placeholder {
+    background-color: gray;
+    border-radius: 5px;
+    border-color: #000;
+    font-size: medium;
+}
+
+#senha {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background: transparent;
+}
+
+#click {
+    color: aliceblue;
+    background: transparent;
+    display: flex;
+    border-radius: 5px;
+}
+
+#botao {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin: 25px auto 0 auto;
+}
+
+#botao:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#actt {
+    position: relative;
+    gap: 30px;
+    margin-top: 100px;
+    bottom: 0px; 
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    background-color: transparent;
+}
+
+#logo {
+    width: 150px;
+    height: 90%;
+}
+
+#banner {
+    background-image: url('https://preview.redd.it/6092ltrt8nt71.jpg?auto=webp&s=c26d698d5d92796be9c6ab47f22dba63a7be96c3');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 70%;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #d21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.banner-1 {
+    background-image: url('https://img.odcdn.com.br/cdn-cgi/image/width=960,height=1200,fit=cover/wp-content/uploads/2022/01/The-Batman.jpg');
+    transition: 1s;
+} 
+
+.banner-1:hover {
+    background-image: url('https://br.web.img3.acsta.net/pictures/19/03/20/16/05/1007568.jpg');
+} 
+
+.banner-2 { 
+    background-image: url('https://images.elle.com.br/2022/08/origin-118.jpg');
+    transition: 1s;
+}
+
+.banner-2:hover{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Zoe_Kravitz_2020_dvna_studio_2.jpg/640px-Zoe_Kravitz_2020_dvna_studio_2.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://i.redd.it/l617izc155sb1.png');
+    transition: 1s;
+}
+
+.banner-3:hover{
+    background-image: url('https://cdn.britannica.com/22/218222-050-DDD3C766/American-actor-Jeffrey-Wright-2017.jpg');
+}
+
+.banner-4 {
+    background-image: url('https://feira.tangerina.news/wp-content/uploads/2022/03/paul-dano-cartaz-2-batman-warner-bros.jpg');
+    transition: 1s;
+} 
+
+.banner-4:hover {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMjMwMzE1OTc0OF5BMl5BanBnXkFtZTcwMDU2NTg0Nw@@._V1_.jpg');
+} 
+
+.banner-5 {
+    background-image: url('https://veja.abril.com.br/wp-content/uploads/2024/09/1-SERIE-O-PINGUIM-k.jpg.jpg?crop=1&resize=1212,909');
+    transition: 1s;
+} 
+
+.banner-5:hover {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMTg4NzM5NDk0MV5BMl5BanBnXkFtZTcwNzAzMTUxNw@@._V1_FMjpg_UX1000_.jpg');
+} 
+
+.banner-6 {
+    background-image: url('https://s2-monet.glbimg.com/lO-EGwshF7BUNBJMpNcwYV2FbVo=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e7c91519bbbb4fadb4e509085746275d/internal_photos/bs/2024/i/c/zisOpXTMaT1zv9ZFGXTw/markstrong-falcone.jpg');
+    transition: 1s;
+} 
+
+.banner-6:hover {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BNzYwNjgwMjMxMF5BMl5BanBnXkFtZTcwNjUwOTc3NQ@@._V1_FMjpg_UX1000_.jpg');
+} 
+
+.banner-7 {
+    background-image: url('https://preview.redd.it/in-the-batman-2022-it-was-revealed-that-barry-keoghan-would-v0-wff977pyyvke1.jpeg?auto=webp&s=885bf11152f7c5e24ea40b91f08e7d247b3a3990');
+    transition: 1s;
+} 
+
+.banner-7:hover {
+    background-image: url('https://resizing.flixster.com/ZVbHQKVmjneSY5onJP9HO7sGEHU=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/738434_v9_bd.jpg');
+} 
+
+.banner-8 {
+    background-image: url('https://preview.redd.it/whats-your-opinion-on-andy-serkis-alfred-pennyworth-v0-4noz4jnm4zg91.jpg?width=556&format=pjpg&auto=webp&s=6dadbadb0d3bb2948fed3b726ccece986385dd25');
+    transition: 1s;
+} 
+
+.banner-8:hover {
+    background-image: url('https://br.web.img3.acsta.net/c_310_420/pictures/19/03/15/22/53/2619796.jpg');
+} 
+
+.banner-9 {
+    background-image: url('https://static.wikia.nocookie.net/the-batman-universe/images/a/a5/Bella_Real_-_Trailer_Image.png/revision/latest?cb=20211228043452');
+    transition: 1s;
+} 
+
+.banner-9:hover {
+    background-image: url('https://www.shutterstock.com/editorial/image-editorial/MfTcU80fMaD6Ef13MDUwNzA=/jayme-lawson-440nw-15251401ba.jpg');
+} 
+
+.banner-10 {
+    background-image: url('https://static.wikia.nocookie.net/aveleyman/images/b/b6/Janine_Harouni_as_Carla.jpg/revision/latest/scale-to-width-down/250?cb=20250526090229');
+    transition: 1s;
+} 
+
+.banner-10:hover {
+    background-image: url('https://static.wikia.nocookie.net/the-batman-universe/images/2/29/Janine_Harouni.jpg/revision/latest?cb=20210527211037');
+} 
+
+.banner-11 {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5efce5920d28887981c5bd9b/1648058362459-2SD4QABRIXJXN2ETANNE/Gil+Perez-Abraham+as+Office+Martinez+in+The+Batman+3.jpg');
+    transition: 1s;
+} 
+
+.banner-11:hover {
+    background-image: url('https://static.wikia.nocookie.net/the-batman-universe/images/c/ce/Gil_Perez_Abraham.jpg/revision/latest?cb=20240808191643');
+} 
+
+.banner-12 {
+    background-image: url('https://assets.mycast.io/actor_images/actor-oscar-novak-511669_large.jpg?1660285944');
+    transition: 1s;
+} 
+
+.banner-12:hover {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfb2pTc-i_MQsWbbhDPlv7K2UdK_YE7xt3MQ&s');
+} 
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 768px){
+    .footer-navigation{
+        display: block;
+    } 
+    
+    nav {
+        display: none;
+    }
+    
+    #banner {
+        background-position: 40%;
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content{
+        grid-template-columns: 1fr;
+    }
+}
